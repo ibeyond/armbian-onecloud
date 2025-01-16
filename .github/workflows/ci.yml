@@ -205,8 +205,8 @@ jobs:
           # - sid # Debian unstable
         TYPE:
           - minimal
-          # - cli
-          # - desktop
+          - cli
+          - desktop
         include:
           - TYPE: desktop
             DESKTOP_ENVIRONMENT: gnome
